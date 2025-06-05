@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.top-banner {
+  background-color: #007A33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.top-banner h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.top-banner img {
+  height: 50px;
+}
+
+.eventos {
+  background-color: #004d26;
+  padding: 20px;
+  text-align: center;
+}
+
+.eventos h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.eventos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.eventos li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.expo {
+  background-color: #007A33;
+  padding: 30px 20px;
+}
+
+.expo h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.expo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.left, .right {
+  flex: 1;
+  min-width: 280px;
+  background-color: #003d1a;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.footer-container {
+  background-color: #004d26;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-container img {
+  height: 30px;
+}
+
+.insta-icon {
+  height: 25px;
+}
