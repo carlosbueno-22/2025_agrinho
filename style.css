@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f1f1f1; /* Cor de fundo para o footer */
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.footer-img {
+    border-radius: 50%; /* Torna as imagens redondas, pode ajustar conforme necessário */
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
