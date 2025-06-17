@@ -7,13 +7,13 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #19cb5a;
   padding: 20px;
 }
 
 /* Cabeçalho */
 header {
-  background-color: #5fa775; /* Verde claro */
+  background-color: #4c744e; /* Verde claro */
   padding: 30px;
   text-align: center;
   border-radius: 10px 10px 0 0;
@@ -22,7 +22,7 @@ header {
 .cabeçalho-título {
   font-size: 40px;
   font-weight: bold;
-  color: #d6ff89; /* Verde-limão claro */
+  color: #92c630; /* Verde-limão claro */
   text-transform: uppercase;
 }
 
