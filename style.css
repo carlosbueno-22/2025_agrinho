@@ -1,0 +1,145 @@
+/* Reset para remover margens e paddings indesejados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definindo a cor principal */
+:root {
+  --cor-principal: #4B5320; /* Verde musgo */
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--cor-principal); /* Cor do fundo */
+  color: #fff; /* Cor do texto */
+  text-align: center; /* Centralizar o conteúdo */
+  margin: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+}
+
+/* Banner no cabeçalho */
+.top-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.top-banner h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: var(--cor-principal);
+}
+
+.top-banner img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Seções principais */
+main {
+  padding: 40px 20px;
+}
+
+/* Próximos eventos */
+.eventos h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.eventos ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.eventos li {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+
+.eventos ul li:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Expo Londrina */
+.expo h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.expo-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.expo-container .left,
+.expo-container .right {
+  width: 45%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.expo-container .left p,
+.expo-container .right p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--cor-principal);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-text {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .expo-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .expo-container .left,
+  .expo-container .right {
+    width: 100%;
+  }
+}
